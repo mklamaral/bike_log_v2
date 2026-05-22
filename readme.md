@@ -26,7 +26,7 @@ Desenvolvido para eliminar o "achismo" na hora de trocar componentes, o projeto 
 - [ ] **Alerta de Manutenção:** Lógica inteligente para notificar quando um componente atingir o limite de uso.
 - [ ] **Integração com Strava/GPS:** Importação automática de logs de pedal para atualização de quilometragem.
 - [ ] **Dashboard Financeiro:** Relatório de gastos mensais/anuais com manutenção de bike.
-- [ ] **App Mobile:** Interface dedicada em .NET MAUI para acesso rápido na oficina.
+- [ ] **App Mobile:** Interface dedicada para acesso rápido na oficina.
 
 ---
 
