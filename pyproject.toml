@@ -1,0 +1,15 @@
+[project]
+name = "bike_log_v2"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "mklamaral",email = "mikael.a.amaral07@gmail.com"},
+]
+dependencies = ["django>=6.0.5", "djangorestframework>=3.17.1", "psycopg2-binary>=2.9.12"]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
