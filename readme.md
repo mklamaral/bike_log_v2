@@ -39,7 +39,7 @@ Desenvolvido para eliminar o "achismo" na hora de trocar componentes, o projeto 
 1. Clone o repositório:
    
 ```bash
-   git clone <seu-link-do-repositorio>
+   git clone https://github.com/mklamaral/bike_log_v2.git
    cd bike-log-pro
 
 ```
