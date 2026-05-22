@@ -40,7 +40,7 @@ Desenvolvido para eliminar o "achismo" na hora de trocar componentes, o projeto 
    
 ```bash
    git clone https://github.com/mklamaral/bike_log_v2.git
-   cd bike-log-pro
+   cd bike_log_v2
 
 ```
 
