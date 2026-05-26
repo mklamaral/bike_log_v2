@@ -26,7 +26,7 @@ Desenvolvido para eliminar o "achismo" na hora de trocar componentes, o projeto 
 - [ ] **Alerta de Manutenção:** Lógica inteligente para notificar quando um componente atingir o limite de uso.
 - [ ] **Integração com Strava/GPS:** Importação automática de logs de pedal para atualização de quilometragem.
 - [ ] **Dashboard Financeiro:** Relatório de gastos mensais/anuais com manutenção de bike.
-- [ ] **App Mobile:** Interface dedicada em .NET MAUI para acesso rápido na oficina.
+- [ ] **App Mobile:** Interface dedicada para acesso rápido na oficina.
 
 ---
 
@@ -40,7 +40,7 @@ Desenvolvido para eliminar o "achismo" na hora de trocar componentes, o projeto 
    
 ```bash
    git clone https://github.com/mklamaral/bike_log_v2.git
-   cd bike-log-pro
+   cd bike_log_v2
 
 ```
 
