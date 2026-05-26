@@ -1,5 +1,5 @@
 from django.db import models
-
+from django.utils.safestring import mark_safe
 from .bike import Bike
 
 class Component(models.Model):
@@ -24,8 +24,8 @@ class Component(models.Model):
     
     def status_manutencao(self):
         if self.kilometers >= self.max_kilometers:
-            return "URGENTE: Trocar ou Revisar!"
+            return mark_safe('<span style="color: red; font-weight: bold;">⚠️ URGENTE</span>')
         elif self.kilometers >= (self.max_kilometers *0.8):
-            return "Atenção: Revisão próxima."
-        return "Em dia."
-   
+            return mark_safe('<span style="color: orange;">⚠️ Atenção</span>')
+        return mark_safe('<span style="color: green;">✅ Em dia</span>')
+    status_manutencao.short_description = 'Status' # Nome da coluna no admin
